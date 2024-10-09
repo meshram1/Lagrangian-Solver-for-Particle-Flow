@@ -1,3 +1,4 @@
 # Lagrangian-Solver-for-Particle-Flow
-A fortran based solver that solved the very simple lagrangian equation to determine the [articles location based on EL model on an unstrcutrued grid.
-Using weighted linear interpolation, we find the velocity at the particles current location.
+A Fortran-based solver that solved the straightforward lagrangian equation to determine the particle's location based on EL model on an unstructured grid.
+We find the velocity at the particle's current location using weighted linear interpolation.
+![Pathlines](https://github.com/user-attachments/assets/0646e27b-c5ed-4dd0-98d5-8cdb63a21482)
