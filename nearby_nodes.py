@@ -19,7 +19,7 @@ for i in range(0,nos_elem):
     points[i][2] = z[i]
 
 # print(points)
-
+"""
 #       METHOD-1        #
 # ------Code for finding the closest nodes (slow and inefficient)----- #
 
@@ -81,5 +81,3 @@ df2 = df1
 df2.iloc[1:,4:] = df1.iloc[1:,4:].astype(int)
 df2.iloc[0,1] = int(df2.iloc[0,1])
 df2.to_csv("gridnew1.dat", sep = ' ', header = None, index = None)
-
-"""
